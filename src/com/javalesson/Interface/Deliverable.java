@@ -1,2 +1,6 @@
-package com.javalesson.Interface;public interface Deliverable {
+package com.javalesson.Interface;
+
+public interface Deliverable {
+
+    int calcDeliverPrice();
 }

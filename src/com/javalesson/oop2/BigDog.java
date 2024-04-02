@@ -1,5 +1,7 @@
-package com.javalesson.oop;
+package com.javalesson.oop2;
 
-public class BigDog  extends Dog{
+import com.javalesson.oop.Dog;
+
+public class BigDog  extends Dog {
 
 }

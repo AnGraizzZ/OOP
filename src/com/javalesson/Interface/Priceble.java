@@ -1,5 +1,11 @@
 package com.javalesson.Interface;
 
-public interface Pticeble {
-    
+public interface Priceble extends Deliverable, Orderable{
+    default int calcPrice(){
+        return calcOrderPrice()+calcDeliverPrice();
+    }
+
+    static void doSmth(){
+
+    }
 }

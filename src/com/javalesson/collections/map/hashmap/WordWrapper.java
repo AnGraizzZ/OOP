@@ -1,4 +1,4 @@
-package com.javalesson.collections.map;
+package com.javalesson.collections.map.hashmap;
 
 import java.util.Objects;
 

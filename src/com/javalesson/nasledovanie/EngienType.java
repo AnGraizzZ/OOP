@@ -1,2 +1,5 @@
-package com.javalesson.nasledovanie;public class EngienType {
+package com.javalesson.nasledovanie;
+
+public enum EngienType {
+    BENZIN, DISEL, ELECTRO;
 }
