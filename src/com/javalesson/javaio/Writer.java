@@ -35,7 +35,6 @@ public class Writer {
         FileWriter fileWriter = new FileWriter(fileName);
         try (PrintWriter writer = new PrintWriter(fileWriter)) {
 
-
             for (StudentGrade gradeKey : grades.keySet()) {
                 writer.write("_________________________\n");
                 writer.write("Студент: " + gradeKey.getName() + " Средняя оценка: " + gradeKey.getOcenka() + "\n");
