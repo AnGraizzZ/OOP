@@ -6,7 +6,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class QuadroMetr {
@@ -19,7 +18,7 @@ public class QuadroMetr {
         Scanner inputScanner = new Scanner(inputFile);
         String data = inputScanner.nextLine();
         String[] splitData = data.split(" ");
-        ArrayList<Integer> intData = new ArrayList<Integer>();
+        ArrayList<Integer> intData = new ArrayList<>();
         for(String sd:splitData){
             intData.add(Integer.parseInt(sd));
         }

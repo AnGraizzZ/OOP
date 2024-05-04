@@ -16,7 +16,7 @@ public class Salary {
         PathPackage output = new PathPackage(Salary.class.getPackageName(), "output.txt");
         File outputFile = output.getFile();
         Scanner scanner = new Scanner(inputFile);
-        ArrayList<Integer> salary = new ArrayList<Integer>();
+        ArrayList<Integer> salary = new ArrayList<>();
         while (scanner.hasNextInt()) {
             salary.add(scanner.nextInt());
         }
