@@ -22,7 +22,7 @@ public class GoldenSand {
                 if(check<3){
                     sand.add(scanner.nextInt());
                 }else{
-                    container.add(scanner.nextInt());
+                    System.out.println(container.add(scanner.nextInt()));
                 }
                 check++;
             }
